@@ -127,7 +127,7 @@ headers = {
 For example, to send a header called `Custom-Header` to a call in  ibm_security_advisor_findings_api_sdk, pass the headers parameter as:
 
 ```python
-from ibm_security_advisor_findings_api_sdk import FindingsApiV1 
+from ibm_cloud_security_advisor import FindingsApiV1 
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 authenticator = IAMAuthenticator('your apikey')
 ibm_security_advisor_findings_api_sdk_service =  FindingsApiV1(authenticator=authenticator)
@@ -136,7 +136,7 @@ response = ibm_security_advisor_findings_api_sdk_service.<<METHOD HERE>>(headers
 
 ### Error Handling
 
-The  ibm_security_advisor_findings_api_sdk Python SDK generates an exception for any unsuccessful method invocation.
+The  ibm_cloud_security_advisor Python SDK generates an exception for any unsuccessful method invocation.
 If the method receives an error response from an API call to the service, it will generate an
 `ApiException` with the following fields.
 
