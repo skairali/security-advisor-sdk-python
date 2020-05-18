@@ -16,7 +16,7 @@ The  ibm_cloud_security_advisor allows developers to programmatically interact w
 
 ## Prerequisites
 
-[ibm-cloud-onboarding]: https://cloud.ibm.com/registration?target=%2Fdeveloper%2Fwatson&
+[ibm-cloud-onboarding]: https://cloud.ibm.com/registration?target=%2Fsecurity-advisor%23%2Fdashboard
 
 * An [IBM Cloud][ibm-cloud-onboarding] account.
 * An IAM API key to allow the SDK to access your account. Create one [here](https://cloud.ibm.com/iam/apikeys).
@@ -46,7 +46,7 @@ Access tokens are valid for a limited amount of time and must be regenerated.
 To provide credentials to the SDK, you supply either an IAM service **API key** or an **access token**:
 
 - Use the API key to have the SDK manage the lifecycle of the access token. The SDK requests an access token, ensures that the access token is valid, and refreshes it if necessary.
-- Use the access token if you want to manage the lifecycle yourself. For details, see [Authenticating with IAM tokens](https://cloud.ibm.com/docs/services/watson/getting-started-iam.html).
+- Use the access token if you want to manage the lifecycle yourself. For details, see `Generating bearer tokens using the IAM API key` and `Supplying the access token` section
 
 
 ### Supplying the IAM API key:
@@ -208,7 +208,7 @@ Example | http method
 
 Example | http method  
 ------------ | ------------- 
-[***create channel***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/master/samples/notifications/create_notification_channel.py) | POST /v1/{account_id}/notifications/channels 
+[***create channel***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/create_notification_channel.py) | POST /v1/{account_id}/notifications/channels 
 [***list channels***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/list_all_channels.py) | GET /v1/{account_id}/notifications/channels
 [***get channel***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/get_notification_channel.py) | GET /v1/{account_id}/notifications/channels/{channel_id} 
 [***delete bulk channels***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/delete_notification_channels.py) | DELETE /v1/{account_id}/notifications/channels
@@ -249,6 +249,7 @@ test/integration/test_note.py:26: in <module>
         export API_KEY=<YOUR_API_KEY>
         export ACCOUNT_ID=<YOUR_ACCOUNT_ID>
         export FINDING_API_ENDPOINT=<FINDING_API_ENDPOINT>
+        export NOTIFICATION_API_ENDPOINT=<NOTIFICATION_API_ENDPOINT>
         #optional. Use it for dev/preprod iam endpoint
         export IAM_ENDPOINT= <IAM_ENDPOINT>
     ```
