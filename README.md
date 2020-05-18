@@ -188,34 +188,34 @@ ibm_cloud_security_advisor_findings_service =FindingsApiV1(authenticator=authent
 
 Example | http method  
 ------------ | ------------- 
-[***post_graph***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/post_graph.py) | POST /v1/{account_id}/graph 
-[***list_providers***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/list_providers.py) | GET /v1/{account_id}/providers
-[***create_finding***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_finding.py) | POST /v1/{account_id}/providers/{provider_id}/notes
-[***create_card***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_card.py) | POST /v1/{account_id}/providers/{provider_id}/notes
-[***create_note_with_kpi***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_note_with_kpi.py) | POST /v1/{account_id}/providers/{provider_id}/notes
-[***create_note_with_reporter***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_note_with_reporter.py) | POST /v1/{account_id}/providers/{provider_id}/notes
-[***create_note_with_section***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_note_with_section.py) | POST /v1/{account_id}/providers/{provider_id}/notes
-[***list_notes***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/list_notes.py) | GET /v1/{account_id}/providers/{provider_id}/notes
-[***delete_note***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/delete_note.py) | DELETE /v1/{account_id}/providers/{provider_id}/notes/{note_id}
-[***create_occurrence***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_occurrence.py) | POST /v1/{account_id}/providers/{provider_id}/occurrences
-[***create_occurrence_with_context***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_occurrence_with_context.py) | POST /v1/{account_id}/providers/{provider_id}/occurrences
-[***create_occurrence_with_kpi***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_occurrence_with_kpi.py) | POST /v1/{account_id}/providers/{provider_id}/occurrences
-[***list_occurrences***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/list_occurrences.py) | GET /v1/{account_id}/providers/{provider_id}/occurrences
-[***delete_occurrence***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/delete_occurrence.py) | DELETE /v1/{account_id}/providers/{provider_id}/occurrences/{occurrence_id}
-[***list_note_occurrences***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/list_note_occurrences.py) | GET /v1/{account_id}/providers/{provider_id}/notes/{note_id}/occurrences
+[***post_graph***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/post_graph.py) | POST /v1/{account_id}/graph 
+[***list_providers***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/list_providers.py) | GET /v1/{account_id}/providers
+[***create_finding***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_finding.py) | POST /v1/{account_id}/providers/{provider_id}/notes
+[***create_card***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_card.py) | POST /v1/{account_id}/providers/{provider_id}/notes
+[***create_note_with_kpi***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_note_with_kpi.py) | POST /v1/{account_id}/providers/{provider_id}/notes
+[***create_note_with_reporter***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_note_with_reporter.py) | POST /v1/{account_id}/providers/{provider_id}/notes
+[***create_note_with_section***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_note_with_section.py) | POST /v1/{account_id}/providers/{provider_id}/notes
+[***list_notes***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/list_notes.py) | GET /v1/{account_id}/providers/{provider_id}/notes
+[***delete_note***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/delete_note.py) | DELETE /v1/{account_id}/providers/{provider_id}/notes/{note_id}
+[***create_occurrence***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_occurrence.py) | POST /v1/{account_id}/providers/{provider_id}/occurrences
+[***create_occurrence_with_context***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_occurrence_with_context.py) | POST /v1/{account_id}/providers/{provider_id}/occurrences
+[***create_occurrence_with_kpi***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/create_occurrence_with_kpi.py) | POST /v1/{account_id}/providers/{provider_id}/occurrences
+[***list_occurrences***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/list_occurrences.py) | GET /v1/{account_id}/providers/{provider_id}/occurrences
+[***delete_occurrence***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/delete_occurrence.py) | DELETE /v1/{account_id}/providers/{provider_id}/occurrences/{occurrence_id}
+[***list_note_occurrences***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/findings/list_note_occurrences.py) | GET /v1/{account_id}/providers/{provider_id}/notes/{note_id}/occurrences
 
 #### Notifications API
 
 Example | http method  
 ------------ | ------------- 
-[***create channel***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/master/samples/notifications/create_notification_channel.py) | POST /v1/{account_id}/notifications/channels 
-[***list channels***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/list_all_channels.py) | GET /v1/{account_id}/notifications/channels
-[***get channel***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/get_notification_channel.py) | GET /v1/{account_id}/notifications/channels/{channel_id} 
-[***delete bulk channels***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/delete_notification_channels.py) | DELETE /v1/{account_id}/notifications/channels
-[***delete channel***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/delete_notification_channel.py) | DELETE /v1/{account_id}/notifications/channels/{channel_id}
-[***update channel***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/update_notification_channel.py) | PUT /v1/{account_id}/notifications/channels/{channel_id}
-[***test channel***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/test_notification_channel.py) | GET /v1/{account_id}/notifications/channels/{channel_id}/test 
-[***get public key***](https://github.ibm.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/get_public_key.py) | GET /v1/{account_id}/notifications/public_key 
+[***create channel***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/master/samples/notifications/create_notification_channel.py) | POST /v1/{account_id}/notifications/channels 
+[***list channels***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/list_all_channels.py) | GET /v1/{account_id}/notifications/channels
+[***get channel***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/get_notification_channel.py) | GET /v1/{account_id}/notifications/channels/{channel_id} 
+[***delete bulk channels***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/delete_notification_channels.py) | DELETE /v1/{account_id}/notifications/channels
+[***delete channel***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/delete_notification_channel.py) | DELETE /v1/{account_id}/notifications/channels/{channel_id}
+[***update channel***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/update_notification_channel.py) | PUT /v1/{account_id}/notifications/channels/{channel_id}
+[***test channel***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/test_notification_channel.py) | GET /v1/{account_id}/notifications/channels/{channel_id}/test 
+[***get public key***](https://github.com/ibm-cloud-security/security-advisor-sdk-python/blob/master/samples/notifications/get_public_key.py) | GET /v1/{account_id}/notifications/public_key 
 
 
 
