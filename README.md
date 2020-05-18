@@ -1,6 +1,6 @@
 # ibm_cloud_security_advisor
 
-This repository contains the released Python client SDK for IBM Cloud Security Advisor Findings and Notifications API . Check out our listed below for more details.
+This repository contains the released python client SDK for IBM Cloud Security Advisor Findings and Notifications APIs . Check out below for more details.
 
 * Findings API : https://cloud.ibm.com/apidocs/security-advisor/findings
 * Notifications API : https://cloud.ibm.com/apidocs/security-advisor/notifications
