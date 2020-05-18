@@ -1,0 +1,9 @@
+{
+    "provider_id": "sdktest",
+    "kind": "KPI",
+    "id": "sdk_occ_id1_kpi",
+    "kpi":{
+        "value":1,
+        "total":1
+      }
+}

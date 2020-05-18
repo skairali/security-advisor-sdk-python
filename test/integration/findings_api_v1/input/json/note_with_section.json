@@ -1,0 +1,16 @@
+{
+    "provider_id":"sdktest",
+	"short_description":"sdk test findings",
+	"long_description":"sdk test findings",
+	"kind":"SECTION",
+	"id":"sdk_note_id1_section",
+	"reported_by":{
+        "id":"1",
+        "title":"test1",
+        "url":"www.test.com"
+    },
+    "section": {
+      "image": "img",
+      "title": "s1"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "name": "sdk_test_notification1",
+    "description": "test1 description",
+    "type": "Webhook",
+    "endpoint": "http://test.com",
+    "enabled": true,
+    "severity": [
+        "high",
+        "medium",
+        "low"
+    ],
+    "alertSource": [
+        {
+            "provider_name": "VA",
+            "finding_types": [
+                "ALL"
+            ]
+        },
+        {
+            "provider_name": "CERT",
+            "finding_types": [
+                "ALL"
+            ]
+        },
+        {
+            "provider_name": "config-advisor",
+            "finding_types": [
+                "appprotection-dns_not_proxied",
+                "appprotection-dnssec_off"
+            ]
+        }
+    ]
+}

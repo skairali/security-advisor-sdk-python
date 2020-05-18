@@ -1,0 +1,19 @@
+{
+    "provider_id": "sdktest",
+    "kind": "FINDING",
+    "id": "sdk_occ_id1_context",
+    "context": {
+      "region": "us-south",
+      "resource_type": "Cluster",
+      "service_name": "Kubernetes Cluster"
+     },
+    "finding": {
+        "severity": "LOW",
+        "next_steps": [
+            {
+                "title": "string",
+                "url": "string"
+            }
+        ]
+    }
+}
