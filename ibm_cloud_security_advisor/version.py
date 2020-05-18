@@ -1,4 +1,4 @@
 """
-Version of ibm_cloud_security_advisor
+Version of ibm_cloud_security_advisor sdk
 """
-__version__ = '0.0.1'
+__version__ = '1.0.0'
