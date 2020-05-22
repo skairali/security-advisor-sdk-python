@@ -28,7 +28,7 @@ with io.open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 
 
-NAME = "ibm_cloud_security_advisor"
+NAME = "ibm_cloud_security_advisor_test"
 VERSION = "1.0.0"
 # To install the library, run the following
 #
@@ -43,10 +43,10 @@ setup(
     name=NAME,
     version=VERSION,
     license='Apache 2.0',
-    description="Security Advisor API Client SDK",
+    description="Test SDK",
     author='IBM Cloud',
     author_email='vkalangu@in.ibm.com, skairali@in.ibm.com, ashishth@in.ibm.com',
-    url="https://github.com/ibm-cloud-security/security-advisor-sdk-python/",
+    url="https://github.com/skairali/security-advisor-sdk-python/",
     keywords=["Swagger", "Findings API", "Notifications API"],
     install_requires=REQUIRES,
     packages=find_packages(),
