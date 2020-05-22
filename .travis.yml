@@ -13,7 +13,6 @@ before_script:
 - pip3 install --editable .
 script:
 - pip3 install -U python-dotenv
-- tox
 before_deploy:
 - pip3 install bumpversion pypandoc
 - sudo apt-get update
