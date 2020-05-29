@@ -13,6 +13,7 @@ before_script:
 - pip3 install --editable .
 script:
 - pip3 install -U python-dotenv
+- tox
 before_deploy:
 - pip3 install bumpversion pypandoc
 - sudo apt-get update
@@ -23,12 +24,6 @@ before_deploy:
 - npm install @semantic-release/git
 - npm install @semantic-release/github
 deploy:
-- provider: script
-  script: python -m pytest test/unit/ --html=report.html
-  skip_cleanup: true
-  on:
-    python: 3.8
-    tags: true
 - provider: script
   script: npx semantic-release
   skip_cleanup: true
