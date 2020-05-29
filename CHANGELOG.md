@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/skairali/security-advisor-sdk-python/compare/v1.1.0...v1.1.1) (2020-05-29)
+
+
+### Bug Fixes
+
+* **minor_fixes:** its secret ([5e3c3bd](https://github.com/skairali/security-advisor-sdk-python/commit/5e3c3bd0f4abd0530a1589b2d5a8918050e93776))
+
 # [1.1.0](https://github.com/skairali/security-advisor-sdk-python/compare/v1.0.0...v1.1.0) (2020-05-29)
 
 
