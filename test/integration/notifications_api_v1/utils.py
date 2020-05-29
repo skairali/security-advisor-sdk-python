@@ -30,12 +30,18 @@ def read_credentials(separator: str = '=') -> dict:
     """
 
     # read env vars
+    print(environ['API_KEY'])
+    print(environ['ACCOUNT_ID'])
+    print(environ['FINDING_API_ENDPOINT'])
+    print(environ['IAM_ENDPOINT'])
     config = {}
     env_keys = ['API_KEY', 'ACCOUNT_ID',
-                'NOTIFICATION_API_ENDPOINT', 'IAM_ENDPOINT']
+                'FINDING_API_ENDPOINT', 'IAM_ENDPOINT']
     is_read_from_file = False
     for k in env_keys:
         v = getenv(k)
+        print(k)
+        print(v)
         if k == 'IAM_ENDPOINT' and v is None:
             v = 'https://iam.cloud.ibm.com/identity/token'
         if v is not None:
