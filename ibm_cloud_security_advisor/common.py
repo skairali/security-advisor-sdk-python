@@ -36,7 +36,7 @@ def get_system_info():
 
 def get_user_agent():
     """
-    Get the value to be sent in the User-Agent header.
+    Get the value to be sent in the User-Agent header. Test
     """
     return USER_AGENT
 
