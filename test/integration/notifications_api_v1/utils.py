@@ -36,7 +36,7 @@ def read_credentials(separator: str = '=') -> dict:
     print(environ['IAM_ENDPOINT'])
     config = {}
     env_keys = ['API_KEY', 'ACCOUNT_ID',
-                'FINDING_API_ENDPOINT', 'IAM_ENDPOINT']
+                'NOTIFICATION_API_ENDPOINT', 'IAM_ENDPOINT']
     is_read_from_file = False
     for k in env_keys:
         v = getenv(k)
