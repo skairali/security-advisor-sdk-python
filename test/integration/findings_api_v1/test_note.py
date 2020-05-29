@@ -47,8 +47,7 @@ class TestNote(unittest.TestCase):
         TestNote.account_id = envvars['ACCOUNT_ID']
         findingsApiEndpoint = envvars['FINDING_API_ENDPOINT']
         iam_endpoint = envvars['IAM_ENDPOINT']
-        	
-	print("findingsApiEndpoint ::::::::::::"+findingsApiEndpoint)
+        print("findingsApiEndpoint:::::: "+findingsApiEndpoint)
 		
         # read note
         with open(jsonDir + "note.json") as f:
