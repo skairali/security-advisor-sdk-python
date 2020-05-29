@@ -30,8 +30,9 @@ def read_credentials(separator: str = '=') -> dict:
     """
 
     # read env vars
-    print(environ['API_KEY'])
+
     print(environ['ACCOUNT_ID'])
+    print(environ['API_KEY'])
     print(environ['FINDING_API_ENDPOINT'])
     print(environ['IAM_ENDPOINT'])
     config = {}
