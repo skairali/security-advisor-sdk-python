@@ -1,5 +1,5 @@
 [{
-    "name": "sdk_test_notification1",
+    "name": "secadvisor_sdk_test_notification1",
     "description": "test1 description",
     "type": "Webhook",
     "endpoint": "https://webhook.site/2905c749-91d7-4841-8fb1-2bd9112ed773",
@@ -32,7 +32,7 @@
     ]
 },
 {
-    "name": "test_delete1",
+    "name": "secadvisor_test_delete1",
     "description": "test_delete_notification_channel description",
     "type": "Webhook",
     "endpoint": "https://webhook.site/2905c749-91d7-4841-8fb1-2bd9112ed773",
@@ -65,7 +65,7 @@
     ]
 },
 {
-    "name": "sdk_test_notification1",
+    "name": "secadvisor_sdk_test_notification1",
     "description": "test_update_notification_channel description",
     "type": "Webhook",
     "endpoint": "http://test.update.com",
@@ -98,7 +98,7 @@
     ]
 },
 {
-    "name": "test_delete2",
+    "name": "secadvisor_test_delete2",
     "description": "test_delete2_notification_channel description",
     "type": "Webhook",
     "endpoint": "https://webhook.site/2905c749-91d7-4841-8fb1-2bd9112ed773",
