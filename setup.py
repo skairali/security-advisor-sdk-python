@@ -29,7 +29,7 @@ with io.open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
 
 
 NAME = "ibm_cloud_security_advisor_test"
-__version__='1.0.0'
+__version__='__version__ = '1.1.0''
 # To install the library, run the following
 #
 # python setup.py install
