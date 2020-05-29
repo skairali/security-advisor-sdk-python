@@ -36,6 +36,8 @@ def read_credentials(separator: str = '=') -> dict:
     is_read_from_file = False
     for k in env_keys:
         v = getenv(k)
+        print(k)
+        print(v)
         if k == 'IAM_ENDPOINT' and v is None:
             v = 'https://iam.cloud.ibm.com/identity/token'
         if v is not None:
